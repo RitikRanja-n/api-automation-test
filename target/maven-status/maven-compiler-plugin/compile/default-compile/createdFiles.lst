@@ -1,0 +1,8 @@
+ApiTestSuite.class
+ApiTestSuite$CreateUserResponse.class
+ApiTestSuite$UserData.class
+ApiTestSuite$LoginResponse.class
+ApiTestSuite$CreateUserRequest.class
+ApiTestSuite$UserSingleResponse.class
+ApiTestSuite$UserListResponse.class
+ApiTestSuite$LoginRequest.class

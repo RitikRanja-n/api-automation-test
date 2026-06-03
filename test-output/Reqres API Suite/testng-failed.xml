@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reqres API Suite]">
+  <test thread-count="5" name="Full API Regression(failed)">
+    <classes>
+      <class name="ApiTestSuite">
+        <methods>
+          <include name="initReporting"/>
+          <include name="TC001_GetUserList"/>
+          <include name="TC004_CreateUser"/>
+          <include name="flushReporting"/>
+          <include name="TC003_UserNotFound"/>
+          <include name="setupTest"/>
+          <include name="reportResult"/>
+          <include name="TC007_LoginAndBearerToken"/>
+          <include name="TC006_DeleteUser"/>
+          <include name="TC002_GetSingleUser"/>
+          <include name="configureRestAssured"/>
+          <include name="TC008_DataDrivenCreate" invocation-numbers="0 1 2"/>
+          <include name="TC005_UpdateUser"/>
+        </methods>
+      </class> <!-- ApiTestSuite -->
+    </classes>
+  </test> <!-- Full API Regression(failed) -->
+</suite> <!-- Failed suite [Reqres API Suite] -->
