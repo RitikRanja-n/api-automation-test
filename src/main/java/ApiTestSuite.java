@@ -31,7 +31,7 @@ public class ApiTestSuite {
     private static final String LOGIN_EMAIL   = "eve.holt@reqres.in";
     private static final String LOGIN_PASS    = "cityslicker";
     private static final String REPORTS_DIR   = "test-reports";
-    private static final String API_KEY       = "reqres-free-v1";   // reqres.in free-tier key
+    private static final String API_KEY       = "free_user_3EciEOynoEW4CVaz98LcGBakMFo";   // reqres.in free-tier key
 
     // =========================================================================
     // JSON SCHEMA (given – use in TC002)
